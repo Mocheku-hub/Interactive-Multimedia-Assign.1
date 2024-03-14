@@ -1,0 +1,63 @@
+/* style.css */
+.root {
+    -fx-background-color: gray; /* Set background color */
+}
+
+/* Style for the grid pane */
+.grid-pane {
+    -fx-hgap: 20px; /* Horizontal spacing between images */
+    -fx-vgap: 20px; /* Vertical spacing between images */
+}
+
+/* Style for the image views */
+.image-view {
+    -fx-border-color: black; /* Border color */
+    -fx-border-width: 2px; /* Border width */
+}
+
+/* Alignment for the toolbar */
+.toolbar {
+    -fx-alignment: baseline_left; /* Align the toolbar to the left */
+}
+
+/* Style for the buttons */
+.button {
+    -fx-background-color: #4CAF50; /* Green */
+    -fx-border: none;
+    -fx-color: white;
+    -fx-padding: 10px 20px;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: #45a049; /* Darker Green */
+}
+
+.label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-padding: 5px;
+}
+
+/* Style for the back button */
+#backButton {
+    -fx-background-color: #f44336; /* Red */
+    -fx-font-weight: bold;
+}
+
+#backButton:hover {
+    -fx-background-color: #da190b; /* Darker Red */
+}
+
+/* Style for the navigation buttons */
+.navigationButton {
+    -fx-background-color: #008CBA; /* Blue */
+    -fx-font-weight: bold;
+}
+
+.navigationButton:hover {
+    -fx-background-color: #005f6b; /* Darker Blue */
+}
+
